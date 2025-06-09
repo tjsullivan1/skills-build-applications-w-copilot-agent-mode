@@ -20,5 +20,5 @@ from .views import api_root
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('', api_root, name='api_root'),
+    path("", api_root, name="api_root"),
 ]
