@@ -126,3 +126,7 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+CODESPACE_API_SUFFIX = (
+    "https://laughing-space-yodel-6rg754jqqc5476.github.dev/-8000.app.github.dev"
+)
